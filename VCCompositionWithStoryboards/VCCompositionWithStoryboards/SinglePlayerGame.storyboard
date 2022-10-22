@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Single Player-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="SinglePlayerViewController" customModule="VCCompositionWithStoryboards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gTG-vZ-pm7">
+                                <rect key="frame" x="8" y="59" width="374" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="ITw-QS-iKS"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="SUn-Ji-HF2" kind="embed" id="w5W-gJ-TaB"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gTG-vZ-pm7" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="12" id="4FB-a0-wJX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gTG-vZ-pm7" secondAttribute="trailing" constant="8" id="jDu-g9-MAG"/>
+                            <constraint firstItem="gTG-vZ-pm7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="qpC-An-nyR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Single Player" id="SjY-lB-FPp"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112" y="-28"/>
+        </scene>
+        <!--PlayerOne-->
+        <scene sceneID="PTs-MD-Tjm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOne" id="SUn-Ji-HF2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DzN-cG-7gw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842" y="-28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

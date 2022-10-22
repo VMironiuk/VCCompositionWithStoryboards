@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HTP-lc-MmK">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Timed Multiplayer-->
+        <scene sceneID="16T-vR-4zs">
+            <objects>
+                <viewController id="HTP-lc-MmK" customClass="MultiplayerViewController" customModule="VCCompositionWithStoryboards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NbN-Qa-kNi">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7X7-u5-Cjy">
+                                <rect key="frame" x="8" y="71" width="374" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="s6W-6q-Kff"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="Wsy-cK-WfR" kind="embed" id="7un-a8-rA3"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDj-7P-VFv">
+                                <rect key="frame" x="8" y="59" width="374" height="4"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="vcV-0U-vhy"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="GmT-Xg-cRN" kind="embed" id="5jz-5o-H8v"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K46-Ns-zo2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7X7-u5-Cjy" firstAttribute="top" secondItem="CDj-7P-VFv" secondAttribute="bottom" constant="8" id="3yi-Dv-xuy"/>
+                            <constraint firstItem="CDj-7P-VFv" firstAttribute="top" secondItem="K46-Ns-zo2" secondAttribute="top" constant="12" id="6B1-VJ-WkV"/>
+                            <constraint firstItem="CDj-7P-VFv" firstAttribute="leading" secondItem="K46-Ns-zo2" secondAttribute="leading" constant="8" id="Z7W-UN-Two"/>
+                            <constraint firstItem="K46-Ns-zo2" firstAttribute="trailing" secondItem="CDj-7P-VFv" secondAttribute="trailing" constant="8" id="b9D-ov-qLu"/>
+                            <constraint firstItem="7X7-u5-Cjy" firstAttribute="leading" secondItem="K46-Ns-zo2" secondAttribute="leading" constant="8" id="kGC-8T-GJM"/>
+                            <constraint firstItem="K46-Ns-zo2" firstAttribute="trailing" secondItem="7X7-u5-Cjy" secondAttribute="trailing" constant="8" id="uOf-5k-eyc"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Timed Multiplayer" id="JD2-CH-uMD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TFJ-Rn-usD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="110.76923076923076" y="-28.436018957345969"/>
+        </scene>
+        <!--TimeBar-->
+        <scene sceneID="kNi-5l-3j6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TimeBar" id="GmT-Xg-cRN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hi3-Dz-Tlz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="-161"/>
+        </scene>
+        <!--MultiplayerScore-->
+        <scene sceneID="bIY-Og-377">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MultiplayerScore" id="Wsy-cK-WfR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nVI-sI-hym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="776" y="-11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
