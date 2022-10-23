@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Multiplayer View Controller-->
+        <!--Multiplayer Score View Controller-->
         <scene sceneID="b7r-WQ-ggd">
             <objects>
-                <viewController id="m1h-pQ-tf5" customClass="MultiplayerViewController" customModule="VCCompositionWithStoryboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m1h-pQ-tf5" customClass="MultiplayerScoreViewController" customModule="VCCompositionWithStoryboards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PRZ-TR-IFs">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="65"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -27,6 +27,8 @@
 		2E6084BC29042DAE00680E4D /* MultiplayerScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6084BB29042DAE00680E4D /* MultiplayerScore.storyboard */; };
 		2E6084BE29042F7900680E4D /* TimeBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6084BD29042F7900680E4D /* TimeBar.storyboard */; };
 		2E6084C02904301C00680E4D /* TimeBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6084BF2904301C00680E4D /* TimeBarViewController.swift */; };
+		2E6084C229055B1200680E4D /* TimedMultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6084C129055B1200680E4D /* TimedMultiplayerViewController.swift */; };
+		2E6084C429055B9800680E4D /* MultiplayerScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6084C329055B9800680E4D /* MultiplayerScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		2E6084BB29042DAE00680E4D /* MultiplayerScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiplayerScore.storyboard; sourceTree = "<group>"; };
 		2E6084BD29042F7900680E4D /* TimeBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimeBar.storyboard; sourceTree = "<group>"; };
 		2E6084BF2904301C00680E4D /* TimeBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBarViewController.swift; sourceTree = "<group>"; };
+		2E6084C129055B1200680E4D /* TimedMultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedMultiplayerViewController.swift; sourceTree = "<group>"; };
+		2E6084C329055B9800680E4D /* MultiplayerScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +130,9 @@
 				2E60847F290413F600680E4D /* ViewController.swift */,
 				2E6084AB2904193500680E4D /* SinglePlayerViewController.swift */,
 				2E6084AD29041A1700680E4D /* MultiplayerViewController.swift */,
+				2E6084C129055B1200680E4D /* TimedMultiplayerViewController.swift */,
 				2E6084B3290420E200680E4D /* PlayerScoreViewController.swift */,
+				2E6084C329055B9800680E4D /* MultiplayerScoreViewController.swift */,
 				2E6084BF2904301C00680E4D /* TimeBarViewController.swift */,
 				2E608481290413F600680E4D /* Main.storyboard */,
 				2E6084AF29041B5200680E4D /* PlayerOne.storyboard */,
@@ -299,11 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E6084B4290420E200680E4D /* PlayerScoreViewController.swift in Sources */,
+				2E6084C229055B1200680E4D /* TimedMultiplayerViewController.swift in Sources */,
 				2E608480290413F600680E4D /* ViewController.swift in Sources */,
 				2E6084AE29041A1700680E4D /* MultiplayerViewController.swift in Sources */,
 				2E60847C290413F600680E4D /* AppDelegate.swift in Sources */,
 				2E6084AC2904193500680E4D /* SinglePlayerViewController.swift in Sources */,
 				2E6084C02904301C00680E4D /* TimeBarViewController.swift in Sources */,
+				2E6084C429055B9800680E4D /* MultiplayerScoreViewController.swift in Sources */,
 				2E60847E290413F600680E4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@
         <!--Timed Multiplayer-->
         <scene sceneID="16T-vR-4zs">
             <objects>
-                <viewController id="HTP-lc-MmK" customClass="MultiplayerViewController" customModule="VCCompositionWithStoryboards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HTP-lc-MmK" customClass="TimedMultiplayerViewController" customModule="VCCompositionWithStoryboards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NbN-Qa-kNi">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,5 +8,7 @@
 import UIKit
 
 final class SinglePlayerViewController: UIViewController {
-    @IBOutlet private weak var player: PlayerScoreViewController?
+    var player: PlayerScoreViewController? {
+        children.compactMap { $0 as? PlayerScoreViewController }.first
+    }
 }
