@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="65" id="4fI-64-Hd0"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="xwb-gt-Nwq" kind="embed" id="IQB-Po-SaE"/>
+                                    <segue destination="xwb-gt-Nwq" kind="embed" identifier="MultiplayerScore" id="IQB-Po-SaE"/>
                                 </connections>
                             </containerView>
                         </subviews>

@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="65" id="s6W-6q-Kff"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="Wsy-cK-WfR" kind="embed" id="7un-a8-rA3"/>
+                                    <segue destination="Wsy-cK-WfR" kind="embed" identifier="MultiplayerScore" id="7un-a8-rA3"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDj-7P-VFv">
@@ -31,7 +31,7 @@
                                     <constraint firstAttribute="height" constant="4" id="vcV-0U-vhy"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="GmT-Xg-cRN" kind="embed" id="5jz-5o-H8v"/>
+                                    <segue destination="GmT-Xg-cRN" kind="embed" identifier="TimeBar" id="5jz-5o-H8v"/>
                                 </connections>
                             </containerView>
                         </subviews>

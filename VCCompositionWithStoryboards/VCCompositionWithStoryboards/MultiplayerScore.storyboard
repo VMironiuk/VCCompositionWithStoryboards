@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="65" id="AHa-aS-wWS"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="G81-IS-wrE" kind="embed" id="8dr-oo-79N"/>
+                                    <segue destination="G81-IS-wrE" kind="embed" identifier="PlayerOne" id="8dr-oo-79N"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8v-ni-5ka">
@@ -31,7 +31,7 @@
                                     <constraint firstAttribute="height" constant="65" id="1Zc-hT-aNQ"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="uZd-Jf-PuH" kind="embed" id="g0n-ad-ENA"/>
+                                    <segue destination="uZd-Jf-PuH" kind="embed" identifier="PlayerTwo" id="g0n-ad-ENA"/>
                                 </connections>
                             </containerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7i-03-ucQ">

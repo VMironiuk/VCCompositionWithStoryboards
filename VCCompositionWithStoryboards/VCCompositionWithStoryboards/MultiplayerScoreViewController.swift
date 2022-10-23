@@ -8,10 +8,17 @@
 import UIKit
 
 final class MultiplayerScoreViewController: UIViewController {
-    var playerOne: PlayerScoreViewController? {
-        children.compactMap { $0 as? PlayerScoreViewController }.first
-    }
-    var playerTwo: PlayerScoreViewController? {
-        children.compactMap { $0 as? PlayerScoreViewController }.last
+    private(set) var playerOne: PlayerScoreViewController?
+    private(set) var playerTwo: PlayerScoreViewController?
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PlayerOne",
+           let playerVC = segue.destination as? PlayerScoreViewController {
+            playerOne = playerVC
+        }
+        if segue.identifier == "PlayerTwo",
+           let playerVC = segue.destination as? PlayerScoreViewController {
+            playerTwo = playerVC
+        }
     }
 }
